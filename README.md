@@ -110,3 +110,8 @@ Dataset to inform codes used by B3 to identify asset type.
 
 This app is used only for educational purposes.
 
+## Sources
+
+* https://www.investopedia.com/terms/m/montecarlosimulation.asp
+* https://www.ibm.com/topics/monte-carlo-simulation#:~:text=The%20Monte%20Carlo%20Method%20was%20invented%20by%20John,modeling%20approach%2C%20similar%20to%20a%20game%20of%20roulette.
+
