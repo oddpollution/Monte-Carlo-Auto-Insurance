@@ -53,6 +53,16 @@ Unlike a normal forecasting model, Monte Carlo Simulation predicts a set of outc
 
 #### How to use
 
+* Brownian Motion
+
+
+
+* Geometric Brownian Motion
+
+
+
+* Box-Muller Method
+
 
 
 ## The App
