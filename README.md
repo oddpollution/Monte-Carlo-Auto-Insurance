@@ -41,6 +41,8 @@ For better results, more iterations and more processing time are needed.
 
 ### Monte Carlo Simulations
 
+#### What is?
+
 Named after a casino-based economy city, Monte Carlo simulation is a mathematical technique that is used to estimate the possible outcomes of an uncertain event, as they are for games like roulette, dice, and slot machines.
 The method was created by Stanislaw Ulam, a mathematician who worked on the Manhattan Project, the secret effort to create the first atomic weapon. He shared his idea with John Von Neumann, a colleague at the Manhattan Project.
 
@@ -48,6 +50,10 @@ A Monte Carlo simulation is used to model the probability of different outcomes 
 Since its introduction, Monte Carlo simulations have assessed the impact of risk in many real-life scenarios, such as artificial intelligence, stock prices, sales forecasting, project management, and pricing. They also provide a number of advantages over predictive models with fixed inputs, such as the ability to conduct sensitivity analysis or calculate the correlation of inputs.
 
 Unlike a normal forecasting model, Monte Carlo Simulation predicts a set of outcomes based on an estimated range of values versus a set of fixed input values. In other words, a Monte Carlo Simulation builds a model of possible results by leveraging a probability distribution, such as a uniform or normal distribution, for any variable that has inherent uncertainty. The model is then run and a result is provided. This process is repeated again and again while assigning many different values to the variable in question. Once the simulation is complete, the results are averaged to arrive at an estimate.
+
+#### How to use
+
+
 
 ## The App
 
