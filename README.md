@@ -1,4 +1,4 @@
-# Monte-Carlo-Auto-Insurance
+# Monte Carlo Auto Insurance Scenario Generator
 
 ## About
 
@@ -30,6 +30,16 @@ It is not probabilistic, so you can't relate probabilities to the answers, leadi
 Although simple, this can actually be bad because it won't bring reality to your analysis.
 
 #### Stochastic
+
+On the other hand, this method presents a probabilistic proxy for the analysis results.
+When simulating results over probabilities, more information can be derived from complex matters; the more complex the problem is, the more complex simulations are needed and the better the results can be.
+By that, Depending on the statistical distribution chosen for the simulation, the problem of using average and median can be easily solved.
+
+Although, once the simulation is done, it becomes untreatable, forcing the creation of a new simulation with new results.
+Every simulation demands a processing cost as it creates several iterations during the simulation's development.
+For better results, more iterations and more processing time are needed.
+
+### Monte Carlo Simulations
 
 
 
