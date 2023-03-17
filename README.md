@@ -2,15 +2,38 @@
 
 ## About
 
-This Git provides an application with a data extraction program in order to educate and create small insights and ideas about the stock market and testing predictive models.
+This Git provides an application with code to generate scenarios for risk assessment for an auto insurance company, using Monte Carlo Simulations (GBM).
 
 ### Address for the app
 
-* [APP link here](https://seagullskf.shinyapps.io/BOLSA_ANALYTICS/)
+* [APP link here](https://seagullskf.shinyapps.io/Monte_Carlo_Simulator/?_ga=2.71946896.281703162.1677177724-864900895.1677177724)
 
 ### Objective
 
-This application is developed in order to observe data extracted from the brazilian stock market, in order to observe daily variations and historical analysis.
+This application is developed in order to generate scenarios to compare possible actions for pricing and underwriting for an auto insurance company.
+
+## The Theory
+
+### Deterministic versus Stochastic analysis
+
+#### Deterministic
+
+This method has known values for its premises, allowing the model to be simple and understandable. 
+The main idea behind using deterministic analysis is to provide your model with your own premises and change it in a fast way. 
+This is possible because the model can be treated through formulas, which can be easily changed. 
+This method has known values for its premises, allowing the model to be simple and understandable. 
+The main idea behind using deterministic analysis is to provide your model with your own premises and change it in a fast way. 
+This is possible because the model can be treated through formulas, which can be easily changed.
+
+But despite being easy to use, the model has its own disadvantages. 
+It is not probabilistic, so you can't relate probabilities to the answers, leading to an approximation of reality, which can cause an ambiguous consideration.
+Although simple, this can actually be bad because it won't bring reality to your analysis.
+
+#### Stochastic
+
+
+
+## The App
 
 #### Sidebar Details:
 * Input the data extracted from [here](https://www.b3.com.br/pt_br/market-data-e-indices/servicos-de-dados/market-data/historico/mercado-a-vista/cotacoes-historicas/) and transformed from raw data to field delimited by comma;
