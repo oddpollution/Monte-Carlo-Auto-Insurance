@@ -53,15 +53,39 @@ Unlike a normal forecasting model, Monte Carlo Simulation predicts a set of outc
 
 #### How to use
 
-* Brownian Motion
+###### _Brownian Motion_
+
+A standard Brownian motion is a random process X={Xt:t∈[0,∞)} with state space R that satisfies the following properties:
+
+* X0=0 (with probability 1).
+* X has stationary increments. That is, for  s,t∈[0,∞) with  s<t, the distribution of  Xt−Xs is the same as the distribution of  Xt−s.
+* X has independent increments. That is, for  t1,t2,…,tn∈[0,∞) with  t1<t2<⋯<tn, the random variables  Xt1,Xt2−Xt1,…,Xtn−Xtn−1 are independent.
+* Xt is normally distributed with mean 0 and variance t for each  t∈(0,∞).
+* With probability 1,  t↦Xt is continuous on [0,∞).
+
+X(t) − X(s) thus can be constructed (simulated) by generating a standard normal rv Z
+and setting X(t) − X(s) = σ(t − s)^(1/2)Z + µ(t − s). 
+
+Again, by the stationary and independent increments, we can simulate such a BM at times 0 = t0 < t1 < t2 < · · · < tk, by generating k iid unit normals Z1, Z2, . . . , Zk and using the recursion X(ti+1) = X(ti) + (X(ti+1) − X(ti)) = X(ti) + σ(ti+1 − ti)^(1/2)Zi+1 + µ(ti+1 − ti).
+
+Simulating BM with drift µ and variance term σ at times 0 = t0 < t1 < t2 < · · · < tk:
+Sequentially generate unit normals Z1, Z2, . . . , Zk, and recursively define
+
+X(t1) = σ(t1)^(1/2)Z1 + µt1
+
+X(t2) = X(t1) + σ(t2 − t1)^(1/2)Z2 + µ(t2 − t1) = σ(t1)^(1/2)Z1 + µt1 + σ(t2 − t1)^(1/2)Z2 + µ(t2 − t1)
+
+.
+.
+.
+
+X(tk) = ![image](https://user-images.githubusercontent.com/120825682/226754127-f8c0dcd6-a553-4c06-a204-a8c9fe6d6794.png)
+
+###### _Geometric Brownian Motion_
 
 
 
-* Geometric Brownian Motion
-
-
-
-* Box-Muller Method
+###### _Box-Muller Method_
 
 
 
