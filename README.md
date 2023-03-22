@@ -95,8 +95,8 @@ where X(t) = σB(t) + µt, t ≥ 0, is a BM. eX(t) has a lognormal distribution 
 
 This transformation is based on the assumption that the normal bivariate distribution Z1, Z2 ~ N(0, 1) will respect the following properties:
 
-* R = z1² + z2² is exponentially distributed with average equals 2, i.e. P(R<=x) +1-e(-x/2)
-* The coordinates (z1,z2) is uniformally distributed on the circle with radius (r)^(1/2) centered at the origin.
+* R = z1² + z2² is exponentially distributed with an average equal to 2, i.e, P(R<=x) +1-e(-x/2)
+* The coordinates (z1,z2) are uniformally distributed on the circle, with the radius (r)^(1/2) centered at the origin.
 
 ## The App
 
