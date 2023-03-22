@@ -83,11 +83,20 @@ X(tk) = ![image](https://user-images.githubusercontent.com/120825682/226754127-f
 
 ###### _Geometric Brownian Motion_
 
+One of the most common ways to estimate risk is the use of a Monte Carlo simulation (MCS). For example, to calculate the value at risk (VaR) of a portfolio, we can run a Monte Carlo simulation that attempts to predict the worst likely loss for a portfolio given a confidence interval over a specified time horizon).
 
+Geometric Brownian motion (GBM) is given by:
+
+S(t) = S(0)eX(t), t ≥ 0
+
+where X(t) = σB(t) + µt, t ≥ 0, is a BM. eX(t) has a lognormal distribution for each fixed t > 0. In general if Y = eX is lognormal with X ∼ N(µ, σ2), then we can easily simulate Y via setting Y = eσZ+µ, with Z ∼ N(0, 1).
 
 ###### _Box-Muller Method_
 
+This transformation is based on the assumption that the normal bivariate distribution Z1, Z2 ~ N(0, 1) will respect the following properties:
 
+* R = z1² + z2² is exponentially distributed with average equals 2, i.e. P(R<=x) +1-e(-x/2)
+* The coordinates (z1,z2) is uniformally distributed on the circle with radius (r)^(1/2) centered at the origin.
 
 ## The App
 
