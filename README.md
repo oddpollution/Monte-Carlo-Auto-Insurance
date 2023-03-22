@@ -21,9 +21,6 @@ This application is developed in order to generate scenarios to compare possible
 This method has known values for its premises, allowing the model to be simple and understandable. 
 The main idea behind using deterministic analysis is to provide your model with your own premises and change it in a fast way. 
 This is possible because the model can be treated through formulas, which can be easily changed. 
-This method has known values for its premises, allowing the model to be simple and understandable. 
-The main idea behind using deterministic analysis is to provide your model with your own premises and change it in a fast way. 
-This is possible because the model can be treated through formulas, which can be easily changed.
 
 But despite being easy to use, the model has its own disadvantages. 
 It is not probabilistic, so you can't relate probabilities to the answers, leading to an approximation of reality, which can cause an ambiguous consideration.
