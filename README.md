@@ -111,7 +111,7 @@ This transformation is based on the assumption that the normal bivariate distrib
 * Perda Parcial: Probability of occurrence of a partial loss
 * Perda Total: Probability of occurrence of a full loss
 * Roubo:  Probability of occurrence of a theft
-* Furto:  Probability of occurrence of a loot
+* Furto:  Probability of occurrence of a larceny
 
 ![image](https://user-images.githubusercontent.com/120825682/226775413-d59881f2-f5d8-4eba-b61b-a4a9b6a61049.png)
 
