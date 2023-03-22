@@ -135,4 +135,7 @@ This app is used only for educational purposes.
 
 * https://www.investopedia.com/terms/m/montecarlosimulation.asp
 * https://www.ibm.com/topics/monte-carlo-simulation#:~:text=The%20Monte%20Carlo%20Method%20was%20invented%20by%20John,modeling%20approach%2C%20similar%20to%20a%20game%20of%20roulette.
-
+* http://www.columbia.edu/~ks20/4404-Sigman/4404-Notes-sim-BM.pdf
+* http://www.columbia.edu/~mh2078/MonteCarlo/MCS_Generate_RVars.pdf
+* http://marcoagd.usuarios.rdc.puc-rio.br/pdf/sim_stoc_proc.pdf
+* https://www.britannica.com/science/probability-theory/Markovian-processes
