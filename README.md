@@ -101,43 +101,31 @@ This transformation is based on the assumption that the normal bivariate distrib
 ## The App
 
 #### Sidebar Details:
-* Input the data extracted from [here](https://www.b3.com.br/pt_br/market-data-e-indices/servicos-de-dados/market-data/historico/mercado-a-vista/cotacoes-historicas/) and transformed from raw data to field delimited by comma;
-* Select Asset type (stocks, real estate funds or investiment funds);
-* Set a price limit (if not, just drag the pointer to the end);
 
-![image](https://user-images.githubusercontent.com/120825682/216088663-8fbceaa1-dc84-4899-b4ed-a868b2aa8e6e.png)
+* Vigentes: Number of clients in your portfolio
+* Periodo: months of study
+* Premio Medio: average premium
+* Desvio Padrao Premio Medio: Standard deviation of the premium 
+* Sinistro Medio: Average claims value
+* Taxa de Risco: The probability of occurrence
+* Perda Parcial: Probability of occurrence of a partial loss
+* Perda Total: Probability of occurrence of a full loss
+* Roubo:  Probability of occurrence of a theft
+* Furto:  Probability of occurrence of a loot
 
-* Select a stock option to check its historical data or forecast.
+![image](https://user-images.githubusercontent.com/120825682/226775413-d59881f2-f5d8-4eba-b61b-a4a9b6a61049.png)
 
-![image](https://user-images.githubusercontent.com/120825682/216089314-d6874947-0331-40fd-8e41-a8854f6064b1.png)
+#### Table:
 
+Returns the simulation results
 
-#### Tabsets:
-* BASE B3
+![image](https://user-images.githubusercontent.com/120825682/226775564-d69db6a2-1e90-4b66-8c3a-0c6d739e6b56.png)
 
-A dataset providing more information about the stock during that day.
+#### Plots
 
-![image](https://user-images.githubusercontent.com/120825682/216089439-5ea83e0f-60ff-46e6-84f1-961168e9936f.png)
+![image](https://user-images.githubusercontent.com/120825682/226775626-7bf882f6-108a-4584-b4da-194edc794f3c.png)
+![image](https://user-images.githubusercontent.com/120825682/226775650-8c75ec82-712b-48d0-8ef2-f2f3c287a098.png)
 
-* RANKING ALTAS
-
-Plot ordering the highest positive variations during the analised date.
-
-![image](https://user-images.githubusercontent.com/120825682/216089494-6f241e04-0e7e-4557-ac2a-4d92d091ae33.png)
-
-* RANKING BAIXAS
-
-Plot ordering the highest negative variations during the analised date.
-
-![image](https://user-images.githubusercontent.com/120825682/216089536-5dae54dc-f3ae-4c48-9893-9a450b82777c.png)
-
-* CONSULTA HISTÓRICO AÇÃO
-
-Plot for historical or forecast visualization.
-
-* CÓDIGOS B3
-
-Dataset to inform codes used by B3 to identify asset type.
 
 ### DISCLAIMER
 
