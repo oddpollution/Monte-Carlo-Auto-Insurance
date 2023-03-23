@@ -95,6 +95,12 @@ This transformation is based on the assumption that the normal bivariate distrib
 * R = z1² + z2² is exponentially distributed with an average equal to 2, i.e, P(R<=x) +1-e(-x/2)
 * The coordinates (z1,z2) are uniformally distributed on the circle, with the radius (r)^(1/2) centered at the origin.
 
+At its most basic, the Box-Muller transformations simply takes two variables that are uniformly distributed and sends them to two independent random variables with a standard normal distribution.
+
+Let’s say U1 and U2 are our original independent random variables; they are uniformly distributed in the interval (0,1). The Box-Muller transformation creates new Z0 and Z1; independent, random variables that have a standard normal distribution:
+
+![image](https://user-images.githubusercontent.com/120825682/227074276-81732163-661d-42f4-97fa-12da8df41253.png)
+
 ## The App
 
 #### Sidebar Details:
@@ -136,3 +142,4 @@ This app is used only for educational purposes.
 * http://www.columbia.edu/~mh2078/MonteCarlo/MCS_Generate_RVars.pdf
 * http://marcoagd.usuarios.rdc.puc-rio.br/pdf/sim_stoc_proc.pdf
 * https://www.britannica.com/science/probability-theory/Markovian-processes
+* https://www.statisticshowto.com/box-muller-transform-simple-definition/
