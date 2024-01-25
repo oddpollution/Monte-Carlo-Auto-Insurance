@@ -14,6 +14,7 @@ library(haven)
 library(DT)
 library(shiny)
 library(scales)
+library(plotly)
 
 rsconnect::setAccountInfo(name='seagullskf', token='27BCA58DBD656C7F1947E0E894040163', secret='An3MvIR4w5K0ZUlIt2XHtdgyiDEz7lCe/S6eNCv/')
 
@@ -47,23 +48,18 @@ shinyUI(fluidPage(
                          min = 0, max = 100, step = 0.001),
             numericInput("FT", "Furto", 0.01,
                          min = 0, max = 100, step = 0.001),
+            numericInput("SIM", "nº de Simulações", 10000,
+                         min = 0, max = 1000000, step = 100),
             actionButton("submit","calcular")
             ),
 
         # Show a plot of the generated distribution
         mainPanel("Tabela",
-                  fluidRow(style = "border: 1px solid silver:", cellWidths = c(200,200,200,200,200,200,200),
-                      splitLayout(tableOutput("FPR"),
-                  tableOutput("FSN"),
-                  tableOutput("FSP"),
-                  tableOutput("FPP"),
-                  tableOutput("FPT"),
-                  tableOutput("FRB"),
-                  tableOutput("FFT"))),
-                  fluidRow(column(6, plotOutput("PLOTFPP")),
-                  column(6, plotOutput("PLOTFPT"))),
-                  fluidRow(column(6, plotOutput("PLOTFRB")),
-                  column(6, plotOutput("PLOTFFT"))),
+                  fluidRow(dataTableOutput("FTX")),
+                  fluidRow(column(6, plotlyOutput("PLOTFPP")),
+                  column(6, plotlyOutput("PLOTFPT"))),
+                  fluidRow(column(6, plotlyOutput("PLOTFRB")),
+                  column(6, plotlyOutput("PLOTFFT"))),
                   fluidRow(column(6, plotOutput("PLOTPR")),
                   column(6, plotOutput("PLOTSN")))
         )
